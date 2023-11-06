@@ -44,6 +44,25 @@ const coop = new PortfolioItem(
     document.getElementById("c2")
 );
 
+const eternal = new PortfolioItem(
+    ["images/Eternal/doomed_editor.png",
+    "images/Eternal/doomed_editor2.png",
+    "images/Eternal/property_panel.png",
+    "images/Eternal/titlescreen.png"],
+    document.getElementById("p3"),
+    document.getElementById("c3")
+);
+
+const crowd = new PortfolioItem(
+    ["images/Crowd/tod.png",
+    "images/Crowd/todu.png",
+    "images/Crowd/ett.png"],
+    document.getElementById("p4"),
+    document.getElementById("c4")
+)
+
 // Add event listeners to call the changeImage function for each portfolio item
 document.getElementById("b1").addEventListener("click", () => bnr.changeImage());
-document.getElementById("b2").addEventListener("click", () => coop.changeImage())
+document.getElementById("b2").addEventListener("click", () => coop.changeImage());
+document.getElementById("b3").addEventListener("click", () => eternal.changeImage());
+document.getElementById("b4").addEventListener("click", () => crowd.changeImage());
