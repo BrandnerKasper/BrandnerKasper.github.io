@@ -24,39 +24,39 @@ class PortfolioItem {
 
 // Create instances of the PortfolioItem class for each portfolio item
 const bnr = new PortfolioItem(
-    ["./images/BossNRun/IntroScreen.png",
-    "./images/BossNRun/LevelScreen.png",
-    "./images/BossNRun/LevelGeneration.png",
-    "./images/BossNRun/Done.png",
-    "./images/BossNRun/Stiernacke.png",
-    "./images/BossNRun/mechanics.png",
-    "./images/BossNRun/WalkMov.png",
-    "./images/BossNRun/DJump.png",
-    "./images/BossNRun/game_ratings.png"],
+    ["./assets/images/BossNRun/IntroScreen.png",
+    "./assets/images/BossNRun/LevelScreen.png",
+    "./assets/images/BossNRun/LevelGeneration.png",
+    "./assets/images/BossNRun/Done.png",
+    "./assets/images/BossNRun/Stiernacke.png",
+    "./assets/images/BossNRun/mechanics.png",
+    "./assets/images/BossNRun/WalkMov.png",
+    "./assets/images/BossNRun/DJump.png",
+    "./assets/images/BossNRun/game_ratings.png"],
     document.getElementById("p1"),
     document.getElementById("c1")
 );
 
 const coop = new PortfolioItem(
-    ["./images/CoOp/CustomCoOp.png",
-    "./images/CoOp/CoOp.png"],
+    ["./assets/images/CoOp/CustomCoOp.png",
+    "./assets/images/CoOp/CoOp.png"],
     document.getElementById("p2"),
     document.getElementById("c2")
 );
 
 const eternal = new PortfolioItem(
-    ["./images/Eternal/doomed_editor.png",
-    "./images/Eternal/doomed_editor2.png",
-    "./images/Eternal/property_panel.png",
-    "./images/Eternal/titlescreen.png"],
+    ["./assets/images/Eternal/doomed_editor.png",
+    "./assets/images/Eternal/doomed_editor2.png",
+    "./assets/images/Eternal/property_panel.png",
+    "./assets/images/Eternal/titlescreen.png"],
     document.getElementById("p3"),
     document.getElementById("c3")
 );
 
 const crowd = new PortfolioItem(
-    ["./images/Crowd/tod.png",
-    "./images/Crowd/todu.png",
-    "./images/Crowd/ett.png"],
+    ["./assets/images/Crowd/tod.png",
+    "./assets/images/Crowd/todu.png",
+    "./assets/images/Crowd/ett.png"],
     document.getElementById("p4"),
     document.getElementById("c4")
 )
