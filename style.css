@@ -6,16 +6,17 @@ body, h1, h2, h3, p {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #1c1c1c; /* Dark background color */
+    color: #dfdfdf;
     line-height: 1.6;
 }
 
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('header-bg.jpg') center/cover no-repeat;
-    color: #fff;
+    color: #ddd;
     text-align: center;
     padding: 60px 0;
+    background-color: #575757; /* Change this color to your desired background color */
 }
 
 h1 {
@@ -27,7 +28,7 @@ p {
 }
 
 nav {
-    background-color: grey;
+    background-color: #333; /* Darker background color */
 }
 
 nav ul {
@@ -43,8 +44,12 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #dfdfdf;
     font-weight: bold;
+}
+
+nav a:hover{
+    color: #f95a05;
 }
 
 section {
@@ -58,11 +63,12 @@ section h2 {
 }
 
 .portfolio-item {
-    border: 1px solid #ddd;
     padding: 20px;
     margin: 10px;
-    background: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.048); /* Slightly more transparent white background */
+    box-shadow: 0 2px 5px rgba(252, 252, 252, 0.2);
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    backdrop-filter: blur(10px); /* Increase the blur effect to make it look like glass */
 }
 
 .portfolio-item img {
@@ -72,7 +78,7 @@ section h2 {
 
 footer {
     background: #333;
-    color: #fff;
+    color: #dfdfdf;
     text-align: center;
     padding: 10px 0;
 }
@@ -99,18 +105,16 @@ footer {
 .portfolio-item {
     display: flex;
     align-items: center;
-    border: 1px solid #e5e5e5;
-    background: #f9f9f9;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
     cursor: pointer;
     overflow: hidden;
-    width: 100%;
+    max-width: 95%; /* Limit the maximum width to prevent excessive stretching */
     max-height: 400px; /* Set the maximum height for the portfolio item */
 }
 
 .portfolio-item:hover {
     transform: translateY(-5px);
+    box-shadow: 0 2px 5px #f95a05;
 }
 
 .portfolio-content {
@@ -143,7 +147,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(95, 95, 95, 0.6);
     color: #fff;
     opacity: 0;
     transition: opacity 0.2s;
@@ -170,10 +174,22 @@ footer {
 .button-container a {
     margin-right: 10px;
     transition: transform 0.2s;
+    color: #dfdfdf; /* Light text color for buttons */
 }
 
 .button-container a:hover {
-    transform: scale(1.1); /* Scale the button slightly when hovered */
+    transform: scale(1.1);
+    background-color: #f95a05; /* Orange background color on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/* Add color accents */
+.portfolio-item h3 {
+    color: #9fd900; /* Green color for headings */
+}
+
+.portfolio-item a {
+    color: #f95a05; /* Orange color for links */
 }
 
 /* Education */
@@ -208,7 +224,6 @@ footer {
 }
 
 .skills {
-    background-color: #f5f5f5;
     padding: 20px;
     border-radius: 5px;
     margin: 10px; /* Add space between skills containers */
@@ -236,6 +251,10 @@ footer {
 .skill-name {
     width: 100px; /* Fixed width for skill names */
     font-weight: bold;
+}
+
+.skill-name:hover{
+    color: #f95a05;
 }
 
 .progress-bar {
