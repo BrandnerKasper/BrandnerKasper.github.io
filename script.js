@@ -24,39 +24,39 @@ class PortfolioItem {
 
 // Create instances of the PortfolioItem class for each portfolio item
 const bnr = new PortfolioItem(
-    ["images/BossNRun/IntroScreen.png",
-    "images/BossNRun/LevelScreen.png",
-    "images/BossNRun/LevelGeneration.png",
-    "images/BossNRun/Done.png",
-    "images/BossNRun/Stiernacke.png",
-    "images/BossNRun/mechanics.png",
-    "images/BossNRun/WalkMov.png",
-    "images/BossNRun/DJump.png",
-    "images/BossNRun/game_ratings.png"],
+    ["./images/BossNRun/IntroScreen.png",
+    "./images/BossNRun/LevelScreen.png",
+    "./images/BossNRun/LevelGeneration.png",
+    "./images/BossNRun/Done.png",
+    "./images/BossNRun/Stiernacke.png",
+    "./images/BossNRun/mechanics.png",
+    "./images/BossNRun/WalkMov.png",
+    "./images/BossNRun/DJump.png",
+    "./images/BossNRun/game_ratings.png"],
     document.getElementById("p1"),
     document.getElementById("c1")
 );
 
 const coop = new PortfolioItem(
-    ["images/CoOp/CustomCoOp.png",
-    "images/CoOp/CoOp.png"],
+    ["./images/CoOp/CustomCoOp.png",
+    "./images/CoOp/CoOp.png"],
     document.getElementById("p2"),
     document.getElementById("c2")
 );
 
 const eternal = new PortfolioItem(
-    ["images/Eternal/doomed_editor.png",
-    "images/Eternal/doomed_editor2.png",
-    "images/Eternal/property_panel.png",
-    "images/Eternal/titlescreen.png"],
+    ["./images/Eternal/doomed_editor.png",
+    "./images/Eternal/doomed_editor2.png",
+    "./images/Eternal/property_panel.png",
+    "./images/Eternal/titlescreen.png"],
     document.getElementById("p3"),
     document.getElementById("c3")
 );
 
 const crowd = new PortfolioItem(
-    ["images/Crowd/tod.png",
-    "images/Crowd/todu.png",
-    "images/Crowd/ett.png"],
+    ["./images/Crowd/tod.png",
+    "./images/Crowd/todu.png",
+    "./images/Crowd/ett.png"],
     document.getElementById("p4"),
     document.getElementById("c4")
 )
