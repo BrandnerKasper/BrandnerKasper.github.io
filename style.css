@@ -194,32 +194,47 @@ footer {
 }
 
 /* Skills */
+#skills {
+    text-align: center;
+}
+
 .skills-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    max-width: 900px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
 }
 
 .skills {
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 5px;
-    text-align: center; /* Center-align the skills container */
-    max-width: 50%;
+    margin: 10px; /* Add space between skills containers */
+    max-width: 30%; /* Adjust the width of each skills container */
 }
 
 .skill {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    min-width: 200px; /* Set a minimum width for each skill */
+    padding: 10px; /* Add padding around each skill */
     transition: transform 0.2s;
 }
 
-.skill:hover{
-    transform: scale(1.1); /* Scale the button slightly when hovered */
+.skill p {
+    margin-right: 10px;
+    font-weight: bold;
 }
 
-.skill p {
+.skill:hover{
+    transform: scale(1.1);
+}
+
+.skill-name {
+    width: 100px; /* Fixed width for skill names */
     font-weight: bold;
 }
 
@@ -230,13 +245,10 @@ footer {
     border-radius: 5px;
     display: flex;
     align-items: center;
-    min-width: 100px; /* Set a minimum width for the progress bars */
-    margin-right: 10px; /* Add margin to separate skill name and progress bar */
 }
 
 .progress {
     height: 100%;
     border-radius: 5px;
     background-color: #9fd900;
-    min-width: 10%; /* Set a minimum width for the progress bar fill */
 }
