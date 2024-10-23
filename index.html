@@ -1,339 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Tobias Brandner Portfolio</title>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Tobias Brandner - Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-    <header>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body style="background: linear-gradient(to bottom, #ffffff1a, #feffd2);
+               height: 100vh; /* Ensure the body takes up the full viewport height */
+               margin: 0;">
+    <div class="wrapper">
+      <header>
+        <img src="assets/images/profile/whut2.jpg" alt="Tobias Brandner Profile Picture" width="250" style="border-radius: 0%;">
+  
         <h1>Tobias Brandner</h1>
-        <p>Developer</p>
-    </header>
+        <p>Computer Science (Master of Science) speciliasing in artificial intelligence</p>
+        <p class="view"><a href="https://github.com/BrandnerKasper">GitHub </p>
+        <p class="view"><a href="https://www.linkedin.com/in/tobias-brandner-08564b299/">LinkedIn </p>
+        <p class="view"><a href="https://www.researchgate.net/profile/Tobias-Brandner-3">Research Gate </p>
+        <p class="view"><a href="https://brandnerkasper.itch.io/">Itchio </a></p>
+      </header>
+      <section>
+        <h1>Portfolio</h1>
+        
+        <h2 style="color: #d03b13;">Projects</h2>
 
-    <nav>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>
+              Real-Time Rendering Super Resolution with Unreal Engine 5
+              <a href="https://github.com/BrandnerKasper/URTSR">[Github]</a>
+            </li>
+            <li>
+              Boss'n Run - Exploring Game Flow
+              <a href="https://brandnerkasper.itch.io/bossn-run">[Itchio]</a>
+            </li>
+            <li>
+              Abyssal Engima Dive In Edition (VR)
+              <a href="https://miggli.itch.io/abyssal-enigma/devlog/638746/abyssal-engima-dive-in-edition-vr">[Itchio]</a>
+            </li>
+            <li>
+                Multi-Lingual Context Optimization
+                <a href="https://github.com/BrandnerKasper/MP_CustomCoOp">[Github]</a>
+            </li>
+            <li>
+              Eternal Game Engine
+              <a href="https://github.com/BrandnerKasper/Eternal">[Github]</a>
+            </li>
         </ul>
-    </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi my name is Tobias Brandner.
-            I am currently studying computer science (master) at the Julius-Maximilian-University (JMU) in Würzburg,
-            Bavaria.
-            I have a special interest in algorithms, machine learning and video games.</p>
-    </section>
+        <h2 style="color: #d06913;">Publications</h2>
+        
+        <ul>
+            <li>
+              <b>Brandner Tobias</b>, Marc Mußmann, and Sebastian von Mammen. "Analysis and Generation of Flow in 3D Jump’n’Run Games." 2024 IEEE Conference on Games (CoG). IEEE, 2024.
+              <a href="https://ieeexplore.ieee.org/abstract/document/10645536">[paper]</a></li>
+            <li> Babu, S. K., <b>Brandner, T.</b>, Truman, S., & von Mammen, S. (2023). Investigating Crowdsourced Help Facilities for Enhancing User Guidance. In IMET (pp. 27-30).
+              <a href="https://diglib.eg.org/server/api/core/bitstreams/f635ab29-9038-4e8f-8563-89c7def8902f/content">[paper]</a>
+            </li>
+        </ul>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
+        <h2 style="color: #d09e13;">Skills</h2>
 
-        <div class="portfolio-item">
-            <div class="portfolio-content">
-                <div class="image-container" id="b1">
-                    <img id="p1" src="./assets/images/BossNRun/IntroScreen.png" alt="Project 1">
-                    <div class="image-overlay">
-                        <div class="overlay-text">
-                            Click to change image<br>
-                            <div id="c1">Image 1 of 9</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <h3>Boss'n Run</h3>
-                    <p> Movement in video games is a essential part when it comes to enjoying a game, especially while
-                        playing 3D Jump'n Runs. But what defines good movement and how can we make it feel good? <br>
-                        Based on Steve Swink's book Game Feel, a GDC talk about designing a jump and Game Maker's
-                        Toolkit analysis video about Celeste, we explore which parameters define the movement of a game.
-                        Therefore we designed our own 3D Jump'n Run called Boss'n Run. <br>
-                        For this work I focused on exploring Game Flow in context of Boss'n Run, especially the Jump'n
-                        Run part.
-                        Therefore I teamed up with Marc Mußmann who created a obstacle generator based on different
-                        movement parameter presets inside Unreal Engine 5.
-                    </p>
-                    <div class="button-container">
-                        <a href="https://github.com/BrandnerKasper/BossNRun" target="_blank">
-                            <img src="./assets/images/buttons/gihubO.png" alt="Github Button">
-                        </a>
-                        <a href="https://brandnerkasper.itch.io/bossn-run" target="_blank">
-                            <img src="./assets/images/buttons/itchO.png" alt="Itchio Button">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <table>
+          <tbody>
+        <tr>
+        <th>Language</th>
+        <th>Framework/Librariers</th>
+        <th>Tools</th>
+          </tr>
+          <tr>
+        <td>Python</td>
+        <td>Pytorch, Matplotplib, Pandas</td>
+        <td>Git</td>
+          </tr>
+          <tr>
+        <td>C++</td>
+        <td>Unreal, OpenGL</td>
+        <td>CMake</td>
+          </tr>
+          <tr>
+        <td>C#</td>
+        <td>Unity, Godot</td>
+        <td>Blender</td>
+          </tr>
+        </tbody>
+        </table>
 
-        <div class="portfolio-item">
-            <div class="portfolio-content">
-                <div class="image-container" id="b2">
-                    <img id="p2" src="./assets/images/CoOp/CustomCoOp.png" alt="Project 2">
-                    <div class="image-overlay">
-                        <div class="overlay-text">
-                            Click to change image<br>
-                            <div id="c2">Image 1 of 2</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <h3>Custom Context Optimization</h3>
-                    <p>Contrastive Language Image Pretraining (CLIP) is a comprehensive pre-trained
-                        image-language model that can handle a variety of
-                        different tasks by merging image and text features
-                        in a common space. Using CLIP on tasks with
-                        limited available data is already yielding promising
-                        results, especially on classification tasks. However,
-                        when used as a zero/fewshot classifier, it can be
-                        very sensitive to wording, requiring good prompts
-                        to achieve good results. Manual development of
-                        prompts for a particular task or dataset can be very
-                        time consuming. Instead of creating prompts man-
-                        ually, we use Context Optimization (CoOp) to learn them by generating the con-
-                        text words of the prompt through a learnable vec-
-                        tor while keeping all other pre-trained parameters
-                        fixed. The original CoOp used the
-                        models from the original CLIP repository. We
-                        want to use CoOp with the open source version of
-                        CLIP called OpenCLIP2, so we can use the same
-                        backbone models from the original CLIP, but also
-                        additional models trained on other datasets or with
-                        a new backbone. For this reason, we have adapted
-                        the CoOp repository to be compatible with the new
-                        models from OpenCLIP. With a Shot value of 1,
-                        the same backbones of OpenCLIP perform slightly
-                        worse than their CLIP counterparts and new mod-
-                        els perform poorly. Increasing the shot value to 16
-                        seems to fix this behavior and leads to promising re-
-                        sults when combining CoOp with OpenCLIP.</p>
-                    <div class="button-container">
-                        <a href="https://github.com/BrandnerKasper/MP_CustomCoOp" target="_blank">
-                            <img src="./assets/images/buttons/gihubO.png" alt="Github Button">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h2 style="color: #70d013;">CV</h2>
+        <a href="assets/documents/cv.pdf" title="CV - Tobias Brandner">[download]</a>
 
-        <div class="portfolio-item">
-            <div class="portfolio-content">
-                <div class="image-container" id="b3">
-                    <img id="p3" src="./assets/images/Eternal/doomed_editor.png" alt="Project 3">
-                    <div class="image-overlay">
-                        <div class="overlay-text">
-                            Click to change image<br>
-                            <div id="c3">Image 1 of 4</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <h3>Eternal Engine</h3>
-                    <p>
-                        This project consists of 3 parts.
-                        At the core lies the Eternal Engine, containing features to create interactive applications.
-                        On top of that is the Doomed Editor, a basic game engine editor to easily use all these features
-                        at
-                        hand to apply them to a corresponding game level.
-                        This editor makes the third and most important part, the game Project Quack possible.
-                        Project Quack is a 2D Jump 'n' Run in which you control a duck egg, helping to reach a safe
-                        place to
-                        hatch.
-                    </p>
-                    <div class="button-container">
-                        <a href="https://github.com/BrandnerKasper/Eternal" target="_blank">
-                            <img src="./assets/images/buttons/gihubO.png" alt="Github Button">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="portfolio-item">
-            <div class="portfolio-content">
-                <div class="image-container" id="b4">
-                    <img id="p4" src="./assets/images/Crowd/tod.png" alt="Project 4">
-                    <div class="image-overlay">
-                        <div class="overlay-text">
-                            Click to change image<br>
-                            <div id="c4">Image 1 of 3</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <h3>Crowdbased Help Facilites in Godot Engine</h3>
-                    <p>
-                        This repository explores Crowdbased Help Facilites in the Godot Engine.
-                        More concrete I explore two ideas: An Enhanced Tool-Tip and a Crowdbased Tip of the Day (ToD).
-                        Both ideas are implemented in the Godot Engine as an Editor Plugin.
-                        This work was published at IMET - International Conference on Interactive Media, Smart Systems
-                        and
-                        Emerging Technologies (2023) under the title Investigating Crowdsourced Help Facilities for
-                        Enhancing User Guidance.
-                    </p>
-                    <div class="button-container">
-                        <a href="https://github.com/BrandnerKasper/CrowdbasedHelpFacilites" target="_blank">
-                            <img src="./assets/images/buttons/gihubO.png" alt="Github Button">
-                        </a>
-                        <a href="https://diglib.eg.org/xmlui/bitstream/handle/10.2312/imet20231252/027-030.pdf?sequence=1&isAllowed=y"
-                            target="_blank">
-                            <img src="./assets/images/buttons/atom32.png" alt="Paper Button">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Add more portfolio items as needed -->
-    </section>
-
-    <!-- Education -->
-    <section id="education">
-        <h2>Education</h2>
-
-        <div class="portfolio-item">
-            <div class="portfolio-content">
-                <div class="image-container2">
-                    <img src="./assets/images/education/julius.png" alt="JMU">
-                </div>
-                <div class="text-container">
-                    <h3>Master of Science - Computer Science</h3>
-                    <h4>Julius-Maximilian-University Würzburg - Grade: <span class="highlight2">WIP</span></h4>
-                    <h5>April 2021 - tbd</h5>
-                    <p>
-                        Continuing education in computer science subjects inside and outside of a game context.
-                        Worked for 2 years as a tutor in the course GameLab 3, where we teach writing a game engine from
-                        scratch using C++ and OpenGL.
-                        <br>
-                        Areas of Interest: • Algorithmic Geometry • Machine Learning • Game Technology Research.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="portfolio-item">
-            <div class="portfolio-content">
-                <div class="image-container2">
-                    <img src="./assets/images/education/ge.png" alt="GE">
-                </div>
-                <div class="text-container">
-                    <h3>Bachelor of Science - Games Engineering</h3>
-                    <h4>Julius-Maximilian-University Würzburg - Grade: <span class="highlight">1.8</span></h4>
-                    <h5>Oktober 2017 - September 2021</h5>
-                    <p>
-                        I learned the basics of algorithmic thinking and programming.
-                        I programmed my own first game (an early version of Boss'n Run) and my own first game engine
-                        (Eternal Engine).
-                        <br>
-                        Areas of Interest: • Algoritms and Datastructures • Software Quality
-                    </p>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Skills -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skills">
-                <div class="skill">
-                    <div class="skill-name">Unreal</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 85%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-name">Godot</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 40%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-name">Unity</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 65%;"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skills">
-                <div class="skill">
-                    <div class="skill-name">Python</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 70%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-name">C#</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 75%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-name">C++</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 70%;"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skills">
-                <div class="skill">
-                    <div class="skill-name">Rust</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 30%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-name">Java</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 40%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <div class="skill-name">Git</div>
-                    <div class="progress-bar">
-                        <div class="progress" style="width: 95%;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <div class="button-container">
-            <a href="https://mastodon.social/@BrandnerKasper" target="_blank">
-                <img src="./assets/images/buttons/mastadon.png" alt="Github Button">
-            </a>
-            <a href="https://github.com/BrandnerKasper" target="_blank">
-                <img src="./assets/images/buttons/gihubO.png" alt="Github Button">
-            </a>
-            <a href="https://brandnerkasper.itch.io/" target="_blank">
-                <img src="./assets/images/buttons/itchO.png" alt="Paper Button">
-            </a>
-            <a href="https://www.linkedin.com/in/tobias-brandner-08564b299/" target="_blank">
-                <img src="./assets/images/buttons/linkedIn.png" alt="Paper Button">
-            </a>
-        </div>
-        <p>Reach out to me: tobias.brandner@gmx.de</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Brandner Tobias</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
 </html>
