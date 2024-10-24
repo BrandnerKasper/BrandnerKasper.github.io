@@ -1,4 +1,4 @@
-# Tobias Brandner
+# CV - Tobias Brandner
 Interested in real-time interactive systems and machine learning.
 
 **Email:** tobias.brandner@gmx.de |
@@ -50,7 +50,7 @@ Interested in real-time interactive systems and machine learning.
 - Worked on an open-source project called Via-VR, an online editor for creating VR applications to support medical treatment.
 - Developed with Unity, wrote small modules in C# to expose functionality from Unity to the editor.
 
-### Tutor
+### Lecture Tutor
 **Julius-Maximilian-University** - Wuerzburg, Germany
 *August 2020 – August 2023*
 
