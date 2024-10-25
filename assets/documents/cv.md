@@ -1,5 +1,4 @@
 # CV - Tobias Brandner
-Interested in real-time interactive systems and machine learning.
 
 **Email:** tobias.brandner@gmx.de |
 **GitHub:** [BrandnerKasper](https://github.com/BrandnerKasper)
@@ -47,10 +46,10 @@ Interested in real-time interactive systems and machine learning.
 **Julius-Maximilian-University** - Wuerzburg, Germany
 *November 2021 – August 2023*
 
-- Worked on an open-source project called Via-VR, an online editor for creating VR applications to support medical treatment.
-- Developed with Unity, wrote small modules in C# to expose functionality from Unity to the editor.
+- Worked on an open-source project called Via-VR, an online framework for creating VR applications to support medical treatment.
+- Developed with Unity, wrote small modules in C# to expose convert a VIA-VR project to a Unity game.
 
-### Lecture Tutor
+### Teaching Assistant
 **Julius-Maximilian-University** - Wuerzburg, Germany
 *August 2020 – August 2023*
 
@@ -75,6 +74,6 @@ Interested in real-time interactive systems and machine learning.
 
 ## Skills
 - **Languages:** Python, C++, C#, Java, Rust
-- **Frameworks/Libraries:** Pytorch, Matplotlib, Pandas
+- **Frameworks/Libraries:** Pytorch, Matplotlib, Pandas, OpenGL
 - **Game Engines:** Unreal, Unity, Godot
 - **Tools:** Git, CMake, Blender
