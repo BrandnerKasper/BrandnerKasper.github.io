@@ -47,7 +47,7 @@
 *November 2021 – August 2023*
 
 - Worked on an open-source project called Via-VR, an online framework for creating VR applications to support medical treatment.
-- Developed with Unity, wrote small modules in C# to expose convert a VIA-VR project to a Unity game.
+- Developed with Unity, wrote modules in C# to convert a VIA-VR projects to Unity.
 
 ### Teaching Assistant
 **Julius-Maximilian-University** - Wuerzburg, Germany
