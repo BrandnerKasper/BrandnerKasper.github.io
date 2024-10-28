@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{moderncv}
+\usepackage{xcolor}
+\moderncvstyle{classic}
+
+\usepackage[ngerman]{babel}
+\usepackage[left=2cm, right=1cm, vmargin=1.5cm]{geometry}
+\usepackage{etoolbox}
+
+% moderncvheadi.sty
+\patchcmd{\makeletterhead}{\bfseries}{}{}{}% Vor- und Nachname ohne Fettdruck
+\patchcmd{\makeletterhead}{\bfseries}{}{}{}% Firma ohne Fettdruck
+
+\makeatletter
+\newcommand*{\subject}[1]{\def\@subject{#1}}
+
+% Betreffzeile hinzufügen
+\patchcmd{\makeletterhead}{\@date\\[2em]}{\@date\\[2em]\@subject\par\medskip}{}{}
+\makeatother
+
+% moderncvbodyi.sty
+\patchcmd{\makeletterclosing}{\bfseries}{\includegraphics[scale=1.5]{sign.png}\\}{}{}% Vor- und Nachname ohne Fettdruck
+
+\name{Tobias}{Brandner}
+\address{Semmelstr. 9}{97070 Würzburg}
+\mobile{0179\,8298854}
+\email{tobias.brandner@gmx.com}
+\recipient{Advanced Rendering Research Group}{AMD}
+\begin{document}
+
+
+
+\date{Würzburg, \today}% Ort vor dem Datum einfügen
+\subject{Application for ML Architect Engineer (Munich, ID 47288)}
+\opening{Dear ARR Team,}
+    
+\closing{Sincerely,}
+
+\makelettertitle
+I am excited to apply for the ML Architect Engineer position with a particular interest 
+in contributing to AMD’s groundbreaking work in neural rendering for real-time systems. 
+My background in computer science with a focus on artificial intelligence, 
+as well as my hands-on experience in machine learning for rendering applications, 
+make me eager to explore neural approaches that redefine gaming graphics and enhance 
+real-time interactive experiences.
+
+\input{first} 
+
+\input{second} 
+
+\input{third}
+
+I would welcome the chance to contribute to AMD in this role. 
+Though I am early in my career, I am motivated to apply my skills as a junior-level candidate and gain experience working with your team.
+Thank you for considering my application, 
+and I look forward to the possibility of discussing how I can contribute to AMD's vision.
+\vspace{0.5cm}
+
+
+\makeletterclosing
+
+
+\end{document}
+

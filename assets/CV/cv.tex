@@ -1,0 +1,109 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{CV - Tobias Brandner} % Your name
+\address{Semmelstraße 9, 97070 Würzburg} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(+49) 1798298854 \\ tobias.brandner@gmx.de} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+%--copy and paste this region  if you need more--
+{\bf Msc in Computer Science - Specialization in Artificial Intelligence} \hfill {1.5} 
+\\ Julius-Maximilian-University Würzburg \hfill {\em Arpil 2021 - September 2024}
+
+{\bf Bsc in Games Engineering} \hfill {1.8} 
+\\ Julius-Maximilian-University Würzburg \hfill {\em October 2017 - September 2021}
+%--copy and paste this region  if you need more--
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+%--copy and paste this region  if you need more--
+{\bf Research Assistant}{, Julius-Maximilian-University Würzburg} \hfill {\em November 2021 - August 2023}\\
+{\bf Technologies:} Unity, C\# 
+\begin{itemize}
+    \item Worked on an open-source project called Via-VR, an online framework for creating VR applications to support medical treatment.
+\end{itemize}
+%--copy and paste this region  if you need more--
+{\bf Teaching Assistant}{, Julius-Maximilian-University Würzburg} \hfill {\em August 2021 - August 2023}\\
+{\bf Technologies:} C++, OpenGL, CMake
+\begin{itemize}
+    \item Tutored a course on game engine development, teaching the basics of rendering, input handling and game loop.
+\end{itemize}
+%--copy and paste this region  if you need more--
+{\bf Internship Software Developer}{, Gentle Troll Entertainment GmbH} \hfill {\em March 2021 - June 2021}\\
+{\bf Technologies:} Unity, C\#
+\begin{itemize}
+    \item Developed a serious game for teaching children about management in sports.
+\end{itemize}
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    PROJECTS
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+%--copy and paste this region  if you need more--
+{\bf Real-Time Rendering Super Resolution with Unreal Engine 5} \hfill {\href{https://github.com/BrandnerKasper/URTSR}{Github}} \\
+{\bf Technologies:} Python, Pytorch, Unreal Engine 5
+\begin{itemize}
+    \item Developed a neural method to upsample from 1080p to 4k in under 16.6 ms while increasing image quality. Created a dataset containing 550GB of rendered content.
+\end{itemize}
+
+{\bf Boss'n Run - Exploring Game Flow} \hfill {\href{https://brandnerkasper.itch.io/bossn-run}{Itchio}} \\
+{\bf Technologies:} Unreal Engine 5, C++, Python
+\begin{itemize}
+    \item Developed a framework to investigate movement in 3D jump'n'run games. Visualized movement parameter behavior in 3D plots
+\end{itemize}
+%--copy and paste this region  if you need more--
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    Publications
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Publications}
+%--copy and paste this region  if you need more--
+{\bf Analysis and Generation of Flow in 3D Jump’n’Run Games.} \hfill {\href{https://ieeexplore.ieee.org/abstract/document/10645536}{PDF}}\\
+2024 IEEE Conference on Games (CoG).\\
+Tobias Brandner, Marc Mußmann, and Sebastian von Mammen.\\
+
+%{\bf Investigating Crowdsourced Help Facilities for Enhancing User Guidance.} \hfill {\href{https://diglib.eg.org/server/api/core/bitstreams/f635ab29-9038-4e8f-8563-89c7def8902f/content}{PDF}}\\
+%2023 IMET. \\
+%Sooraj Babu, Tobias Brandner, Samuel Truman, Sebastian von Mammen. \\\\
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Skills}
+    \begin{tabular}{>{\bfseries}l l} % Bold the first column
+        Languages: & Python, C++, C\#, Java, Rust \\
+        Frameworks/Libraries: & Pytorch, Matplotlib, Pandas, OpenGL \\
+        Game Engines: & Unreal, Unity, Godot \\
+        Tools: & Git, CMake, Blender \\
+    \end{tabular}
+\end{rSection}
+
+\end{document}----------------------------
+

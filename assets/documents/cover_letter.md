@@ -1,29 +1,19 @@
-# Application for ML Architect Engineer (Munich ID 47288)
+# Application for ML Architect Engineer (Munich, ID 47288)
 
-Dear ARR team,
+Dear ARR Team,
 
-Neural networks are already being used to support real-time rendering.
-For example, they increase the resolution of rendered frames in real-time or generate completely new frames in between rendered frames.
-Your work [neural texture block compression](https://gpuopen.com/download/publications/2024_NeuralTextureBCCompression.pdf) reduces the storage size required for high quality textures.
-But there is so much more to explore.
-[Game'N'Gen](https://gamengen.github.io/) simulates the classic game DOOM by embedding the game state and generating frames based solely on this, completely replacing the traditional rendering approach. 
-Therefore, I believe that neural rendering will continue to play a key role in the gaming industry.
+I am excited to apply for the ML Architect Engineer position with a particular interest in contributing to AMD’s groundbreaking work in neural rendering and real-time systems. My background in computer science with a focus on artificial intelligence, as well as my hands-on experience in machine learning for rendering applications, make me eager to explore neural approaches that redefine gaming graphics and enhance real-time interactive experiences.
 
-During my bachelor studies, I was curious about the art of game development.
-I learned the basics of real-time interactive systems and rendering while developing my own small game engine using C++, OpenGL and CMake, among other things.
-In my Master's degree, I combined this interest with machine learning as I investigated super resolution in real-time rendering for my thesis.
-I collected my own dataset within Unreal Engine 5 to design and implement a network architecture with Python/Pytorch. Comparing my architecture with other networks on VRAM usage, inference speed and image quality metrics (PSNR, SSIM, LPIPS).
-I work methodically as I was able to analyze and visualize movement behavior in 3D jump'n'run games and publish my work at this year's Conference of Games in Milan.
+As part of my Master’s thesis, I developed a neural network for real-time super-resolution, addressing issues of frame rate and resolution in games with high computational demands. Using Python and Pytorch, I created a dataset within Unreal Engine 5 and built a model that upscales from 1080p to 4K in real-time, achieving improved visual quality and performance metrics. This work taught me valuable lessons in optimizing GPU resources and balancing computational demands, which I see as highly relevant to AMD's innovations.
 
-While I was lucky to have capable people around me for interesting projects,
-I still lack experience.
-I would like to expand my knowledge of rendering techniques, especially neural rendering, to support game development.
+In addition to machine learning, my academic and professional experience includes several years of programming in C++ and CMake, which I used to build a custom game engine during my bachelor’s degree. I tutored courses in game engine development with OpenGL and C++, helping new students understand rendering fundamentals, and strengthening my technical communication skills. My recent work with movement behavior analysis in 3D games also led to a publication at the IEEE Conference on Games in Milan this year, where I shared insights on movement visualization in jump'n'run environments.
 
-I think your position [ML Architect Engineer](https://careers.amd.com/careers-home/jobs/47288?lang=en-us) is an excellent opportunity for me to develop further.
-However, I feel that my experience is not sufficient for a senior role.
-Would you consider hiring me for a junior position?
+While I have yet to work directly with D3D12, I am keen to expand my skills in this area and learn more about neural texture block compression and other advanced rendering techniques at AMD. I am confident that my technical foundation and enthusiasm for neural rendering align well with the goals of your team.
 
-Best,
+I would welcome the chance to contribute to AMD in this role. Though I am early in my career, I am motivated to apply my skills as a junior-level candidate and gain experience in collaboration with your team.
 
+Thank you very much for considering my application, and I look forward to the possibility of discussing how I can contribute to AMD's vision.
+
+Sincerely,
 Tobias Brandner
 
