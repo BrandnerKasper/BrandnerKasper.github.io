@@ -1,0 +1,88 @@
+\documentclass[12pt,a4paper]{moderncv}
+\usepackage{xcolor}
+\moderncvstyle{classic}
+
+\usepackage[ngerman]{babel}
+\usepackage[left=2cm, right=1cm, vmargin=1.5cm]{geometry}
+\usepackage{etoolbox}
+
+% moderncvheadi.sty
+\patchcmd{\makeletterhead}{\bfseries}{}{}{}% Vor- und Nachname ohne Fettdruck
+\patchcmd{\makeletterhead}{\bfseries}{}{}{}% Firma ohne Fettdruck
+
+\makeatletter
+\newcommand*{\subject}[1]{\def\@subject{#1}}
+
+% Betreffzeile hinzufügen
+\patchcmd{\makeletterhead}{\@date\\[2em]}{\@date\\[2em]\@subject\par\medskip}{}{}
+\makeatother
+
+% moderncvbodyi.sty
+\patchcmd{\makeletterclosing}{\bfseries}{\includegraphics[scale=1.0]{sign.png}\\}{}{}% Vor- und Nachname ohne Fettdruck
+
+\name{Tobias}{Brandner}
+\address{Semmelstr. 9}{97070 Würzburg}
+\mobile{0179\,8298854}
+\email{tobias.brandner@gmx.com}
+\recipient{R+V Versicherung}{Wiesbaden, Deutschland}
+\begin{document}
+
+
+
+\date{Würzburg, \today}% Ort vor dem Datum einfügen
+\subject{Bewerbung als Data Scientist - ID 32608}
+\opening{Sehr geehrte Damen und Heeren,}
+    
+\closing{Mit freundlichen Grüßen,}
+
+\makelettertitle
+
+mit großem Interesse bewerbe ich mich für die Position als Data Scientist bei der R+V Versicherung.
+Mein Masterstudium in Informatik mit Schwerpunkt Künstliche Intelligenz sowie meine praktische Erfahrung 
+in Softwareentwicklung und maschinellem Lernen passen ideal zu den Anforderungen dieser Position. 
+Ich freue mich darauf, Ihre innovativen Projekte im Bereich Data Science und KI – 
+insbesondere im Kontext der Kfz-Versicherungen – aktiv mitzugestalten.
+
+In meiner Masterarbeit „Real-Time Rendering Super Resolution with Unreal Engine 5“ habe ich mich mit dem Themenbereich
+Neural Rendering beschäftigt, um die Auflösung und Qualität gerenderter Bilddaten in Echtzeit zu optimieren. 
+Darüber hinaus habe ich in Projekten wie der Entwicklung einer multilingualen Bildklassifikation 
+und der Datenflussanalyse in 3D-Jump’n’Run-Spielen meine analytischen Fähigkeiten und 
+Präsentationskompetenz unter Beweis gestellt.
+
+Neben meinem Studium habe ich als Softwareentwickler umfassende praktische Erfahrung in Softwaredesign, 
+Best Practices und agilen Methoden gesammelt. 
+Besonders wichtig ist mir dabei die effiziente Projektkoordination sowie die klare und verständliche Vermittlung 
+komplexer Konzepte und Aufgaben innerhalb des Teams.
+
+Die Möglichkeit, relevante Daten aufzubereiten und Machine-Learning-Technologien weiterzuentwickeln 
+– insbesondere im Bereich Generative AI (GenAI) – reizt mich besonders. 
+Aktuell beschäftige ich mich intensiv mit generativen KI-Modellen, vorrangig Diffusionsmodelle, 
+und erkunde deren Potenzial für innovative Anwendungen. 
+Ich bin stets offen für neue Herausforderungen und lerne kontinuierlich, um optimale Lösungen zu entwickeln.
+
+Ich freue mich darauf, meine Leidenschaft für KI-Technologien und mein Fachwissen in Ihr Team einzubringen 
+und gemeinsam mit R+V Versicherung zukunftsweisende Lösungen zu gestalten. 
+Gerne stehe ich Ihnen für ein persönliches Gespräch zur Verfügung.
+
+%\input{first} 
+
+%\input{second} 
+
+%\input{third}
+
+%I am enthusiastic about the opportunity to contribute to Siemens' pioneering projects and 
+%am eager to further develop my skills through the structured learning and growth opportunities 
+%the graduate program offers. I would welcome the chance to discuss how my background and 
+%aspirations align with the program’s objectives.
+
+%Thank you for considering my application. 
+%I look forward to the possibility of joining Siemens and contributing to its mission of advancing 
+%technology for a better tomorrow.
+\vspace{0.5cm}
+
+
+\makeletterclosing
+
+
+\end{document}
+
