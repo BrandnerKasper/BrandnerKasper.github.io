@@ -726,10 +726,10 @@
   \lettertextstyle{\@letterclosing} \\\\
   \includegraphics[scale=1.0]{sign.png} \\ % Add signature here
   \letternamestyle{\@firstname\ \@lastname}
-  \ifthenelse{\isundefined{\@letterenclosure}}
-    {\\}
-    {%
-      \\\\\\
-      \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
-    }
+  % \ifthenelse{\isundefined{\@letterenclosure}}
+  %   {\\}
+  %   {%
+  %     \\\\\\
+  %     \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
+  %   }
 }
